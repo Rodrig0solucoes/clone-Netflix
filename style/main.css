@@ -54,7 +54,7 @@ header nav a:hover{ /* um evento que ocorre quando o mouse passa por cima*/
 .filme-principal{
     font-size: 16px;
     /*este comando abaixo escurece as imagem para melhor leitura da descrição*/
-    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50) 100%),url('/img/fundo4.jpg');
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50) 100%),url('/img/fundo.jpg');
     /*background-repeat: no-repeat;*/
     /*height: 100%;
     /*height: 10%;*/
@@ -91,3 +91,30 @@ header nav a:hover{ /* um evento que ocorre quando o mouse passa por cima*/
 .botao i{
     margin: 5px;
 }
+
+/*criando formatação para caroosel de filmes*/
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrosel-filmes{
+
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

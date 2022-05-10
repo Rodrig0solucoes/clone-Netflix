@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+    
+    <!--link para owl css-->
+    <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+
+    <!-- link responsividade-->
+    <link rel="stylesheet" href="/style/responsive.css">
+
     <title>NETFLIX CLONE</title>
 </head>
 <body>
@@ -23,7 +31,7 @@
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 CLASS="titulo">HOW I MET YOUR MOTHER</h3>
+                <h3 CLASS="titulo">HOW I MET YOUR MOTHER</h3>  <!--HOW I MET YOUR MOTHER-->
                 <p class="descricao">No ano de 2030, Ted Mosby, um arquiteto, decide explicar a seus filhos a história de como ele conheceu a mãe deles. Tudo começou em 2005, quando um de seus amigos decidiu se casar e Ted precisou correr atrás de um amor.</p>
                 <div class="botoes">
                     <button role="button" class="botao"> <!--descrição role='button'serve para deixar claro para outros sistemas que isso é um botão-->
@@ -39,8 +47,34 @@
         </div>
     </main>
 
+    <!--criando uma nova div para o carrosel-->
+    <!--esse material se encontra no site do owl-->
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="/img/carrosel1.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/carrosel2.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/carrosel3.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/carrosel4.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/carrosel5.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
 
     <script src="https://kit.fontawesome.com/7a5ce1851e.js" crossorigin="anonymous"></script> <!-- icone utilizados nos boões site fontawesome-->
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/owl/setup.js"></script> <!--esse link serve para iniciar -->
+
 
 </body>
 
